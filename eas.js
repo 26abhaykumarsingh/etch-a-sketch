@@ -12,7 +12,7 @@ grid.appendChild(tempgrid);
 for (let i = 0; i < 16; i++) {
     let row = document.createElement('div');
     row.classList.add('row');
-    let x = 800 / 16;
+    let x = 700 / 16;
     row.style.height = `${x}px`;
     for (let j = 0; j < 16; j++) {
         let block = document.createElement('div')
@@ -36,7 +36,7 @@ function changeGrid() {
     for (let i = 0; i < side; i++) {
         let row = document.createElement('div');
         row.classList.add('row');
-        let x = 800 / side;
+        let x = 700 / side;
         row.style.height = `${x}px`;
         for (let j = 0; j < side; j++) {
             let block = document.createElement('div')

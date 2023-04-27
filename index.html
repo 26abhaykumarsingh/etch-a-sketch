@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="eas.css">
     <script src="eas.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
-
-
+    <div class="header">Etch-a-Sketch</div>
     <div id="main">
-        
-    
         <div id="grid"></div>
-
-        <div id="options">
+    </div>
+    <div id="options">
+        <div class="range">
             <div id="rangeselector">
-                <p>How Many Blocks</p>
-                <input type="range" id="range" max="100" min="0" value="16" id="range" >
+                <input type="range" id="range" max="100" min="0" value="16" id="range">
             </div>
             <div id="rangedisplay">16</div>
-            <input type="color" id="colorinput">
         </div>
-
-        
+        <input type="color" id="colorinput">
     </div>
-
-
 </body>
+
 </html>

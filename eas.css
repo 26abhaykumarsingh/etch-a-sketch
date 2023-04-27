@@ -1,11 +1,26 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
     box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
 }
 
-#main{
+body {
+    background-color: #EEE9DA;
+}
+
+.header {
+    text-align: center;
+    font-size: 6.6rem;
+    color: #365667;
+    background-color: #93BFCF;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#main {
     box-sizing: unset;
     margin: auto;
     display: flex;
@@ -14,38 +29,30 @@
     align-items: center;
 }
 
-#grid{
-    height: 800px;
-    width: 800px;
+#grid {
+    height: 700px;
+    width: 700px;
     box-sizing: unset;
-    border: 5px solid black;
 }
 
-#options{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-
-.tempgrid{
+.tempgrid {
     display: flex;
     flex-direction: column;
 
-    height: 800px;
-    width: 800px;
+    height: 700px;
+    width: 700px;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
 
     margin: auto;
-    width: 800px;
+    width: 700px;
 
 }
 
-.block{
+.block {
     background-color: whitesmoke;
     margin: auto;
 
@@ -53,15 +60,52 @@
     /*border: 1px solid red;*/
 }
 
-#rangeselector{
-    margin-left: auto;
-    margin-right: auto;
+#options {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.range {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 630px;
+    border-radius: 50px;
+    background-color: #BDCDD6;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+#rangeselector input {
+    width: 500px;
+    margin-top: 5px;
 }
 
 #rangedisplay{
-    margin-left: auto;
-    margin-right: auto;
+    height: 40px;
+    width: 80px;
+    background-color: #93BFCF;
+    color: #365667;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
+input[type="color"] {
+    appearance: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 
-
+}
